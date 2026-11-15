@@ -13,3 +13,5 @@ Checked typography,spacing,colors,image states,copy. 320/390/768 profile no over
 - Production frontend unchanged; preview localhost:4178.
 
 2026-11-15: Removed style selector. Route action lives in selected WOOD TRAIL detail; selecting another event hides its track. Browser fixture with a second event verified isolation, 3D in current location, and 390px layout. No production data created.
+
+2026-11-15 owner import: real API returns one WOOD TRAIL and its organization; browser verified one card, organizer label, GPX, mobile width and public event page. Empty API fixture shows zero cards (no hardcoded fallback). SQL verified owner relation and idempotent import (1 organization / 1 event). Snapshot before import: snapshot-20261115T182645201577Z.
