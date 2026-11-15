@@ -19,3 +19,5 @@ Event database, organizer submission form/backend, image upload and moderation/a
 Desktop1440/mobile390 screenshots inspected. Style/tile load and GPX layer passed; event selection, sport filter empty/reset, map/list mobile switch, organizer dialog passed. Widths320/390/768 without overflow. No JS page errors. Initial vector-source failure resolved with raster provider. Preview remains running for owner review.
 Screenshot evidence kept in local Sportfond redesign review directory outside public repository. Design follows existing approved portal typography/colors adapted to a map workspace.
 '''
+
+2026-11-15: Release to https://map.sportfondhm.ru/ from main. Full-width map, event catalogue below, home login/logout, multiple organizations per account. Local preview remains on 4178.

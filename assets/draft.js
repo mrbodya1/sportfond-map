@@ -1,7 +1,7 @@
 (()=>{
 const workspace=document.querySelector('.workspace'),status=document.getElementById('map-status');
 const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-window.sfMapView=mode=>{workspace.dataset.view=mode;document.querySelectorAll('.nav-view').forEach(b=>{const on=b.dataset.view===mode;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});if(mode==='map')requestAnimationFrame(()=>window.sportfondMap?.resize())};
+window.sfMapView=mode=>{workspace.dataset.view=mode;document.querySelectorAll('.nav-view').forEach(b=>{const on=b.dataset.view===mode;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});requestAnimationFrame(()=>{window.sportfondMap?.resize();document.querySelector(mode==='map'?'.map-panel':'.event-list').scrollIntoView({behavior:reduced?'instant':'smooth',block:'start'})})};
 document.querySelectorAll('.nav-view').forEach(b=>b.addEventListener('click',()=>sfMapView(b.dataset.view)));
 const dialog=document.getElementById('organizer-dialog');let opener;
 document.querySelectorAll('.organizer-open').forEach(b=>b.onclick=()=>{opener=b;dialog.showModal()});

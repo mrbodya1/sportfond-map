@@ -17,3 +17,5 @@
 Не коммитить .env,базы,uploads,коды входа и данные организаторов. Docker preview не открывает новые внешние порты.
 
 Векторные стили и загрузка тайлов: [docs/VECTOR-MAP.md](docs/VECTOR-MAP.md).
+
+2026-11-15: Release to https://map.sportfondhm.ru/ from main. Full-width map, event catalogue below, home login/logout, multiple organizations per account. Local preview remains on 4178.
