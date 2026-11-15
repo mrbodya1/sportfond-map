@@ -1,0 +1,11 @@
+:80 {
+    handle /api/map/* {
+        reverse_proxy host.docker.internal:18767
+    }
+    handle {
+        root * /usr/share/caddy
+        file_server {
+            hide .git*
+        }
+    }
+}
