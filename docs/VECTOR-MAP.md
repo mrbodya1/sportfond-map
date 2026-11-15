@@ -13,3 +13,5 @@ MapLibre GL JS 5.6.2 + OpenFreeMap / OpenStreetMap / OpenMapTiles.
 Локально API через preview.Caddyfile, на публичном домене через https://api.sportfondhm.ru с существующим ограничением MAP_ORIGINS. Выбор места организатором использует ту же подложку.
 
 Источники: https://openfreemap.org/quick_start/ ; https://github.com/maplibre/demotiles ; https://maputnik.github.io/editor/ .
+
+Update: UI now exposes only Sportfond style and 3D/2D. Route action belongs to the selected event detail and is shown only where a track exists. Underlying alternative style definitions are retained for design work.

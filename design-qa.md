@@ -11,3 +11,5 @@ Checked typography,spacing,colors,image states,copy. 320/390/768 profile no over
 - 390×844: no horizontal overflow, 3D pitch 50°. Screenshots inspected: map-real-vector.png, map-vector-mobile.png in local review workspace.
 - Backend: 35 unittest tests passed in an isolated disposable container, including range assembly/gzip/cache, invalid paths, font host, organizer ownership and admin checks.
 - Production frontend unchanged; preview localhost:4178.
+
+2026-11-15: Removed style selector. Route action lives in selected WOOD TRAIL detail; selecting another event hides its track. Browser fixture with a second event verified isolation, 3D in current location, and 390px layout. No production data created.
