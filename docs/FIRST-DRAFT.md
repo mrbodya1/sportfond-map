@@ -1,6 +1,6 @@
 # Map first draft — 2026-11-15
 
-Preview http://127.0.0.1:4178/ through container sportfond-map-preview. Source D:/Projects/sportfond-map, branch design/first-draft. Production main and map.sportfondhm.ru unchanged.
+Preview http://127.0.0.1:4178/ through container sportfond-map-preview. Source D:/Projects/sportfond-map, branch design/first-draft. Production published from main to https://map.sportfondhm.ru/ on 2026-11-15.
 Standalone static HTML/CSS/JS. Start a static HTTP server from repository root; no npm/build step.
 
 ## Implemented

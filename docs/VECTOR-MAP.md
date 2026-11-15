@@ -3,7 +3,7 @@
 MapLibre GL JS 5.6.2 + OpenFreeMap / OpenStreetMap / OpenMapTiles.
 Оформления: Sportfond (адаптированный Liberty), Подробная (Liberty), Контрастная (Bright). Наклон 3D/2D, здания, русские подписи, GPX WOOD TRAIL. Стиль редактируется JSON в assets/map-styles.js (можно через Maputnik). Это не спутниковая карта и не модель рельефа.
 
-Превью http://127.0.0.1:4178/ . Production пока не опубликован.
+Превью http://127.0.0.1:4178/ . Production: https://map.sportfondhm.ru/ (main).
 
 ## Транспорт
 В текущей сети большие бинарные ответы обрываются примерно после 25 КБ. map_tiles.py загружает gzip-фрагменты с проверкой Content-Range, собирает их и распаковывает. Шрифтовый сервер OpenFreeMap игнорирует Range; используется фиксированный источник maplibre/demotiles gh-pages/font. Спрайты OpenFreeMap сохранены локально без изменений.
